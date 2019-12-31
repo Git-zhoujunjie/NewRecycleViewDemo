@@ -10,13 +10,11 @@ import com.example.newrecycleviewdemo.adapter.BaseAdapter;
 import com.example.newrecycleviewdemo.presenter.BasePresenter;
 import com.example.newrecycleviewdemo.presenter.MyPresenter;
 import com.example.newrecycleviewdemo.view.BaseView;
-import com.example.newrecycleviewdemo.view.MyView;
 
 public class MyActivity extends BaseActivity implements BaseView{
 
     private RecyclerView mRecyclerView;
     private BaseAdapter mAdapter;
-    private BaseView mView;
     private RecyclerView.LayoutManager layoutManager;
 
     private int menuItemId;
